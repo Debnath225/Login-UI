@@ -17,6 +17,7 @@ body{
     border: 2px solid rgb(6, 161, 6);
 }
 #submitBtn{
+    color:#ffffff;
     background: #0000ff;
     cursor: pointer;
     height: 30px;
