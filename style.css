@@ -10,8 +10,8 @@ body{
 }
 #userInput{
     cursor: text;
-    height: 35px;
-    width: 400px;
+    height: 40px;
+    width: 350px;
     border-radius: 10px;
     outline: none;
     border: 2px solid rgb(6, 161, 6);
@@ -35,12 +35,11 @@ body{
     height: 100%;
     width: 100%;
     font-family: arial,san-serif,sang UI;
-    background: scroll;
 }
 #nameHolder{
     cursor: text;
-    height: 35px;
-    width: 400px;
+    height: 40px;
+    width: 350px;
     border-radius: 10px;
     outline: none;
     front-size:18px;
