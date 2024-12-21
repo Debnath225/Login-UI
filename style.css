@@ -6,7 +6,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-clip:initial;
-    aspect-ratio: 16/9;
 }
 #userInput{
     cursor: text;
