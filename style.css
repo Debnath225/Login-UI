@@ -9,7 +9,7 @@ body{
 }
 #userInput{
     cursor: text;
-    height: 30px;
+    height: 35px;
     width: 400px;
     border-radius: 10px;
     outline: none;
@@ -19,7 +19,7 @@ body{
     background: #0000ff;
     cursor: pointer;
     height: 30px;
-    width: 90px;
+    width: 100px;
     font-size: 18px;
     outline: none;
     border-radius: 5px;
@@ -37,10 +37,11 @@ body{
 }
 #nameHolder{
     cursor: text;
-    height: 30px;
+    height: 35px;
     width: 400px;
     border-radius: 10px;
     outline: none;
+    front-size:18px;
     border: 2px solid rgb(6, 161, 6);
 }
 #verifyme{
