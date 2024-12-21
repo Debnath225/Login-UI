@@ -14,7 +14,7 @@
     <br>
     <input type="text" placeholder="   Enter Your Name:" id="nameHolder" name="Username" required>
     <br>
-    <label for="verify" id="verifyme"><h4 class="textColor">Verify it's you</h4><input type="submit" name="verify" onclick="UserName(document.getElementById('nameHolder').value)" ondblclick="myfun()" value="Verify Name"></label>
+    <label for="verify" id="verifyme"><h4 class="textColor">Verify it's you</h4><input type="submit" name="verify" id="checkName" onclick="UserName(document.getElementById('nameHolder').value)" ondblclick="myfun()" value="Verify Name"></label>
     <label for="Checker" ><h2 class="textColor">Enter Your Password:</h2></label>
     <br>
     <input type="password" id="userInput" name="Checker" placeholder="   Enter Your Password:" required><br><br><button id="submitBtn"  onclick="checkPassword(document.getElementById('userInput').value)" >Submit</button>
