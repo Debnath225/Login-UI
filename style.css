@@ -65,3 +65,16 @@ body{
     font-size: 20px;
     font-weight: 500;
 }
+#checkName{
+    color: #ffffff;
+    margin-top: 15px;
+    cursor: pointer;
+    height: 30px;
+    width: 90px;
+    font-size: 14px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #0000ff;
+    z-index: 1;
+}
