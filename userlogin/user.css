@@ -4,6 +4,7 @@ padding:0px;
 }
 body{
 background-image:url(userlogin/file bg.jpeg);
+repet:no-repet;
 }
 #userEnter{
 display:flex;
