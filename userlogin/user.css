@@ -2,4 +2,14 @@
 margin:0px;
 padding:0px;
 }
-#
+#userEnter{
+display:flex;
+justify-content:center;
+align-item:center;
+}
+#userEnter{
+text-shadow:2px 3px 5px green,
+            4px 5px 7px red,
+            6px 9px 10px yelow,
+            10px 7px 12px blue;
+}
