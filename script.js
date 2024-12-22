@@ -57,7 +57,8 @@ function checkPassword(val) {
         submitBtn.style.border="2px solid green";
         userInput.style.border="2px solid green";
         let aTag =document.createElement("a");
-        aTag.href="userlogin/user.html";
+        aTag.href="userlogin/user.html"alt=
+            "_blanck";
         aTag.innerHTML = "Click here";
 
         let parent = document.getElementById("para");
