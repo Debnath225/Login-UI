@@ -5,6 +5,7 @@ padding:0px;
 body{
     display: flex;
     justify-content: center;
+    background-image:url();
 }
 /*#welCome{
     margin-top: 40px;
