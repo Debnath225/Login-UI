@@ -20,7 +20,7 @@ if(StoredData.includes(nval)){
     nameHolder.style.border="4px solid green";
 
 }else if(nval==0){
-    nameHolder.style.border="2px solid red";
+    nameHolder.style.border="4px solid red";
     userName.innerHTML="No Name Entered!";
     return 0;
 }
