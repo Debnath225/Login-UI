@@ -17,18 +17,18 @@ const StoredData = ["Rahul Hati","Debnath Hati","Suman Mondal","Riya Roy","Ram",
 if(StoredData.includes(nval)){
     console.log("Name Matched");
     userName.innerHTML=`${nval}`;
-    nameHolder.style.border="2px solid green";
+    nameHolder.style.border="4px solid green";
 
 }else if(nval==0){
     nameHolder.style.border="2px solid red";
-
+    userName.innerHTML="No Name Entered!";
     return 0;
 }
 
 else{
     console.log("No Match Found!!!");
     userName.innerHTML="No Match Found!!!";
-    nameHolder.style.border="2px solid red";
+    nameHolder.style.border="4px solid red";
 }
 
 }
@@ -54,8 +54,8 @@ function checkPassword(val) {
         consol.style.fontWeight="300";
         consol.style.border="1px solid green";
         consol.style.borderRadius="10px";
-        submitBtn.style.border="2px solid green";
-        userInput.style.border="2px solid green";
+        submitBtn.style.border="4px solid green";
+        userInput.style.border="4px solid green";
         let aTag =document.createElement("a");
         aTag.href="userlogin/user.html";
         aTag.target="_blank";
@@ -68,7 +68,8 @@ function checkPassword(val) {
     }
     
     else if(userInput.value==0){
-        userInput.style.border="2px solid red"
+        userInput.style.border="4px solid red"
+        consol.innerHTML="No Password Entered!";
       return 0;
    }else {
         console.log("Access denied! Incorrect password.");
@@ -76,9 +77,9 @@ function checkPassword(val) {
         consol.style.fontWeight="300";
         consol.style.borderRadius="10px";
         consol.style.color="red";
-        submitBtn.style.border="2px solid red";
-        userInput.style.border="2px solid red"
-
+        submitBtn.style.border="4px solid red";
+        userInput.style.border="4px solid red"
+        submitBtn.style.background="red";
     }
   
 }
