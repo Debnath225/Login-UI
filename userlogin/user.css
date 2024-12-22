@@ -6,6 +6,9 @@ body{
     display: flex;
     justify-content: center;
     background-image:url(userlogin/file_bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 /*#welCome{
     margin-top: 40px;
