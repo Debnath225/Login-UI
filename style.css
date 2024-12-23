@@ -7,6 +7,9 @@ body{
     background-size: cover;
     background-position: center;
     background-clip:initial;
+    display:flex;
+    justify-content: centre;
+    align-item: centre;
 }
 #userInput{
     font-size: 20px;
