@@ -84,9 +84,12 @@ function checkPassword(val) {
     }
   
 }
+const contentediable =document.getElementById("contentediable");
+
 function Cont_t(){
     document.designMode
     ='on';
+    contentediable.innetHTML="CONTENTEDIABLE ON";
 }
 
 // Example usage
