@@ -4,6 +4,8 @@ const userName =document.getElementById("userName");
 const submitBtn =document.getElementById("submitBtn");
 const nameBtn =document.getElementById("nameHolder");
 const netxPage =document.getElementById("nextPage");
+const checkName =document.getElementById("checkName");
+
 
 const nval = nameHolder.value;
 const val = userInput.value;
@@ -18,10 +20,12 @@ if(StoredData.includes(nval)){
     console.log("Name Matched");
     userName.innerHTML=`${nval}`;
     nameHolder.style.border="4px solid green";
+    checkName.value="Verified"
 
 }else if(nval==0){
     nameHolder.style.border="4px solid red";
     userName.innerHTML="No Name Entered!";
+    checkName.value="Verify Name";
     return 0;
 }
 
@@ -29,6 +33,7 @@ else{
     console.log("No Match Found!!!");
     userName.innerHTML="No Match Found!!!";
     nameHolder.style.border="4px solid red";
+    checkName.value="Not Verified";
 }
 
 }
