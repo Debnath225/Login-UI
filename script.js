@@ -87,9 +87,9 @@ function checkPassword(val) {
 const contentediable =document.getElementById("contentediable");
 
 function Cont_t(){
+    contentediable.innetHTML="CONTENTEDIABLE ON";
     document.designMode
     ='on';
-    contentediable.innetHTML="CONTENTEDIABLE ON";
 }
 
 // Example usage
