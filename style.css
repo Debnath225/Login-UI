@@ -123,11 +123,6 @@ scroll-behavior: smooth;
 #consol:hover{
     transform: scale(1.1);
 }
-#CTT-P{
-    display: flex;
-   justify-content: center;
-   align-items: center;
-}
 #contentediable{
     color:#ffffff;
     font-size: 25px;
