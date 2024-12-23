@@ -84,6 +84,10 @@ function checkPassword(val) {
     }
   
 }
+function Cont_t(){
+    document.designMode
+    ='on';
+}
 
 // Example usage
 // const userInput = prompt("Enter your password:"); // For browsers
