@@ -3,9 +3,10 @@ body{
     padding: 0px;
     background: #e2e2e2;
     background-image: url(CYBERSICURITY2.jpg);
-    background-size: cover;
+    background-attachment: fixed;
     background-position: center;
-    background-clip:initial;
+    background-repeat: no-repeat;
+    background-size: cover;
     display:flex;
     justify-content: centre;
     align-item: centre;
