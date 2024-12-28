@@ -69,6 +69,7 @@ scroll-behavior: smooth;
 #verifyme{
     display: inline-flex;
     gap:4px;
+    margin-top:5px;
 }
 .textColor{
     color: #ffffff;
