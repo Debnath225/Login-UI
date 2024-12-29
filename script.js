@@ -62,15 +62,16 @@ function checkPassword(val) {
         submitBtn.style.border="4px solid green";
         userInput.style.border="4px solid green";
         submitBtn.style.background="green";
-        let aTag =document.createElement("a");
-        aTag.href="userlogin/user.html";
-        aTag.target="_blank";
-        aTag.innerHTML = "Click here";
+      //  let aTag =document.createElement("a");
+       // aTag.href="userlogin/user.html";
+        //aTag.target="_blank";
+       // aTag.innerHTML = "Click here";
 
-        let parent = document.getElementById("para");
-        parent.appendChild(aTag);
-        return aTag;
-       
+        //let parent = document.getElementById("para");
+       // parent.appendChild(aTag);
+      //  return aTag;
+
+        submitBtn.target="_blank";
     }
     
     else if(userInput.value==0){
