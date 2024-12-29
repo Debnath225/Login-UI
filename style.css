@@ -23,7 +23,10 @@ scroll-behavior: smooth;
     width: 350px;
     border-radius: 10px;
     outline: none;
-    border: 2px solid rgb(6, 161, 6);
+    border:none;
+}
+#userInput:focus{
+    border: 1.5px solid rgb(6, 161, 6);
 }
 #submitBtn{
     color:#ffffff;
@@ -104,7 +107,6 @@ scroll-behavior: smooth;
 }
 #checkName{
     color: #ffffff;
-    margin-top: 15px;
     cursor: pointer;
     height: 30px;
     width: 90px;
