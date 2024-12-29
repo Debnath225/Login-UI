@@ -71,7 +71,7 @@ function checkPassword(val) {
        // parent.appendChild(aTag);
       //  return aTag;
 
-        submitBtn.action="userlogin/user.html";
+        submitBtn.action="user.html";
     }
     
     else if(userInput.value==0){
