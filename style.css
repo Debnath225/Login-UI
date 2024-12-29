@@ -67,7 +67,10 @@ scroll-behavior: smooth;
     border-radius: 10px;
     outline: none;
     front-size:18px;
-    border: 2px solid rgb(6, 161, 6);
+    border: none;
+}
+#nameHolder:focus{
+    border: 1.5px solid rgb(6, 161, 6);
 }
 #verifyme{
     display: inline-flex;
