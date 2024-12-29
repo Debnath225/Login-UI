@@ -73,10 +73,9 @@ scroll-behavior: smooth;
     border: 1.5px solid rgb(6, 161, 6);
 }
 #verifyme{
-    margin-top:12x;
     display: inline-flex;
     gap:4px;
-    margin-top:10px;
+    margin-top:12px;
 }
 .textColor{
     color: #ffffff;
