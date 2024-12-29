@@ -1,0 +1,30 @@
+*{
+margin:0px;
+padding:0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-image:url(userlogin/file_bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*#welCome{
+    margin-top: 40px;
+    margin-right: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}*/
+#welCome{
+text-shadow:2px 3px 5px green,
+            4px 5px 7px red,
+            6px 9px 10px yelow,
+            10px 7px 12px blue;
+}
+#circle{
+height:400px;
+width:400px;
+border-radious:50%;
+}
