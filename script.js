@@ -94,11 +94,7 @@ function Cont_t(){
     document.designMode
     ='on';
 }
-function Cont_f(){
-     document.designMode
-    ='off';
-    contentediable.innerText="CONTENTEDIABLE OFF";
-}
+//
 
 // Example usage
 // const userInput = prompt("Enter your password:"); // For browsers
