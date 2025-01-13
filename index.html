@@ -8,15 +8,17 @@
 </head>
 <body>
 <div id="passwordChecker">
-    <h2 id="userName" class="textColor"></h2>
     <br><br>
+    <h2 id="userName" class="textColor"></h2>
+    <br><br><br><br>
     <label for="Username"><h2 class="textColor">Enter Your Name:</h2></label>
-    <br>
+    <br><br><br>
     <input type="text" placeholder="Enter Your Name. . ." id="nameHolder" name="Username" required>
-    <br>
+    <br><br><br><br>
     <label for="verify" id="verifyme"><h4 class="textColor">Verify it's you</h4><input type="submit" name="verify" id="checkName" onclick="UserName(document.getElementById('nameHolder').value)" ondblclick="myfun()" value="Verify Name"></label>
+    <br><br><br><br>
     <label for="Checker" ><h2 class="textColor">Enter Your Password:</h2></label>
-    <br>
+    <br><br><br>
     <input type="password" id="userInput" name="Checker" placeholder="Enter Your Password. . ." required><br><br><button id="submitBtn"  onclick="checkPassword(document.getElementById('userInput').value)" >Submit</button>
     <br><div id="consol"></div>
     <br><br><br><br><br>
