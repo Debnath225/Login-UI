@@ -13,15 +13,13 @@ const val = userInput.value;
 
 function UserName(nval){
 
-let text = "<ul>";
+let text = "<ol>";
 StoredData.forEach(myFunction);
-text += "</ul>";
+text += "</ol>";
 
 document.getElementById("checkName").innerHTML = text;
-
-function myFunction(value) {
   text += "<li>" + value + "</li>";
-} 
+
 
     
 
