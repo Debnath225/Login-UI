@@ -74,6 +74,7 @@ scroll-behavior: smooth;
 }
 #verifyme{
     display: inline-flex;
+   align-item:baseline;
     gap:4px;
     margin-top:12px;
 }
