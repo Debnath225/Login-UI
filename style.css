@@ -9,7 +9,7 @@ body{
     background-size: cover;
     display:flex;
     justify-content: centre;
-    align-item: centre;
+    align-items: centre;
     flex-direction:column;
 }
 html{
@@ -59,7 +59,7 @@ scroll-behavior: smooth;
     font-family: arial,san-serif,sang UI;
 }
 #nameHolder{
-    padding-left: 5px;
+    padding-left: 10px;
     font-size: 20px;
     cursor: text;
     height: 50px;
@@ -134,7 +134,7 @@ scroll-behavior: smooth;
 #CTT-P{
     display:flex;
 justify-content: centre;
-    align-item: centre;
+    align-items: centre;
 }
 #contentediable{
     color:#ffffff;
