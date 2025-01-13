@@ -133,7 +133,7 @@ scroll-behavior: smooth;
 }
 #CTT-P{
     display:flex;
-justify-content: centre;
+justify-content:  space-around;
     align-items: centre;
 }
 #contentediable{
