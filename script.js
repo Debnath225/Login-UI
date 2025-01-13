@@ -12,17 +12,6 @@ const val = userInput.value;
 
 
 function UserName(nval){
-
-let text = "<ol>";
-StoredData.forEach(myFunction);
-text += "</ol>";
-
-document.getElementById("checkName").innerHTML = text;
-  text += "<li>" + value + "</li>";
-
-
-    
-
 const StoredData = ["Rahul Hati","Debnath Hati","Suman Mondal","Riya Roy","Ram","Piu Hati","Piu Sar","Kartick Sar"];
 if(StoredData.includes(nval)){
     console.log("Name Matched");
