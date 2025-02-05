@@ -57,6 +57,7 @@ scroll-behavior: smooth;
     height: 100%;
     width: 100%;
     font-family: arial,san-serif,sang UI;
+      background: transparent;
     background-color:rgba(225,225,225,0.7);
 }
 #nameHolder{
