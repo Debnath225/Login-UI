@@ -31,6 +31,7 @@ else{
     userName.innerHTML="No Match Found!!!";
     nameHolder.style.border="4px solid red";
     checkName.value="Not Verified";
+    checkName.style.width="120px";
 }
 
 }
