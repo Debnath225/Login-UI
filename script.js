@@ -31,7 +31,7 @@ else{
     userName.innerHTML="No Match Found!!!";
     nameHolder.style.border="4px solid red";
     checkName.value="Not Verified";
-    checkName.style.width="120px";
+    checkName.style.width="140px";
 }
 
 }
@@ -44,7 +44,8 @@ function checkPassword(val) {
         "12345678",
         "mypassword",
         "qwerty",
-        "piusar"
+        "piusar",
+        "dev@1234"
     ];
     let name ="";
 
